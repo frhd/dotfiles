@@ -1,0 +1,1 @@
+/Users/farhad/Dropbox/Mackup/.zshrc
