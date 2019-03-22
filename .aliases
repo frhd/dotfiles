@@ -1,0 +1,12 @@
+alias uuidgen='uuidgen | tr "[:upper:]" "[:lower:]"'
+alias readlink=greadlink
+
+alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
+alias chrome-canary="/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary"
+alias chromium="/Applications/Chromium.app/Contents/MacOS/Chromium"
+
+export NVM_DIR="/Users/farhad/.nvm"
+alias loadnvm='[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"'  # This loads nvm
+
+alias vim="nvim"
+alias vimdiff="nvim -d"
